@@ -6,6 +6,26 @@ SQL reporting layer -> Excel executive summary -> Power BI dashboard.
 All data is **synthetic** (no real patient information). Patient IDs are replaced with a salted SHA-256
 hash before anything reaches the reporting layer, to mirror HIPAA-aware handling.
 
+## Dashboard preview
+
+
+
+![Executive Summary](Dashboard/Screenshots/Page1.png)
+
+
+
+
+![Denials](Dashboard/Screenshots/Page2.png)
+
+
+
+
+![AR and Payments](Dashboard/Screenshots/Page3.png)
+
+
+
+
+![Data Quality](Dashboard/Screenshots/Page4.png)
 ## Architecture
 
 ```
